@@ -23,7 +23,7 @@ public class Amazon
 		     driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
 driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 
-
+//nice one
 
 		     JavascriptExecutor jse = (JavascriptExecutor)driver;
 		     jse.executeScript("window.scrollBy(0,2000)");
